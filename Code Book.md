@@ -26,8 +26,6 @@ x_train <- read.table("UCI HAR Dataset/train/X_train.txt", col.names = features$
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt", col.names = "code") 
 
 
-Note: For some reason the X_test and X_train tables could not be read (error: more columns than column names), 
-so I imported both files in RStudio. 
 
 
 Assignement
